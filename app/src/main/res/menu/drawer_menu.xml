@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="For you">
+
+<menu>
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/jobs"
+        android:icon="@drawable/jobs"
+        android:title="Jobs" />
+    <item
+        android:id="@+id/myaccount"
+        android:icon="@drawable/myaccount"
+        android:title="Myaccount" />
+
+
+</menu>
+</item>
+
+        <item android:title="From our side">
+            <menu>
+            <item
+                android:id="@+id/facilities"
+                android:icon="@drawable/facilities"
+                android:title="Facilities" />
+            <item
+                android:id="@+id/training"
+                android:icon="@drawable/training"
+                android:title="Training" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/help"
+                android:title="Help" />
+            </menu>
+        </item>
+    <item android:title="To know">
+    <menu>
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/aboutus"
+            android:title="About us" />
+    </menu>
+    </item>
+
+</menu>
